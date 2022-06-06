@@ -11,7 +11,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:softwarecreations/mongo-hacker.git"
+    "url": "git@github.com:softwarecreations/mongo-hacker.git#release-0.1.2"
   },
   "keywords": [
     "mongodb",
@@ -23,7 +23,7 @@
     "name": "softwarecreations",
     "email": "tv2qoq05@anonaddy.me"
   },
-  "homepage": "https://github.com/softwarecreations",
+  "homepage": "https://github.com/softwarecreations/mongo-hacker",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/softwarecreations/mongo-hacker/issues"
