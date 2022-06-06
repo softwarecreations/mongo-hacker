@@ -11,6 +11,8 @@
 # MongoDB Shell Enhancements - Modernized v0.1.2
 **This is a fork by [@softwarecreations](https://github.com/softwarecreations)** of [TylerBrock/mongo-hacker](https://github.com/TylerBrock/mongo-hacker)
 
+## Why `mongo-hacker-modern` is better than `mongo-hacker`
+
 **mongo-hacker**
 Looks like this (I find this hard to read)
 ![image](https://user-images.githubusercontent.com/28704571/172172884-2c47c42d-4acc-482e-a7d4-f6a59aa8934c.png)
@@ -20,6 +22,16 @@ Looks like this (I find this hard to read)
 
 **My 220 PR adds the `minimal_quotes` option, that improves readability like this**
 ![image](https://user-images.githubusercontent.com/28704571/172173503-fd4e471f-084e-4e30-a495-ea1e2ceacb33.png)
+
+## So Readability vs `mongosh` is equalized, but usability is better!
+
+So with my enhancements, `mongo-hacker-modern` has the same readability as MongoDB's (new) official `mongosh` client, with 3 added benefits over `mongosh`
+- Fully customizable (do whatever you want, edit the code, submit a PR?)
+- Supports `.ugly();` query modifier, forcing results to be displayed on 1 line per document!
+- Older mongo servers and Node.JS environments are supported (I don't care about this, but maybe you do)
+
+## `mongosh` lacking `.ugly();` lacks usability
+`mongosh` results consume a ridiculous amount of space and that makes it tedious to look through data.
 
 To install it, run
 ```
