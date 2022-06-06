@@ -9,7 +9,7 @@
             └───────────────────────────────────────────────────────────────────────────────────┘
 
 # Oops
-2022-06-06 I unpublished the module and npmjs.org wants me to wait 24 hrs to republish.
+2022-06-06 I unpublished the module and npmjs.org wants me to wait 24 hrs to republish but you can just clone, checkout this branch and run `make install`
 
 # mongo-hacker-modern
 NPM module that generates `~/.mongorc.js` for a next-level Mongo development experience
