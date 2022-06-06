@@ -39,7 +39,7 @@ So with my enhancements, `mongo-hacker-modern` has the same readability as Mongo
 ## `mongosh` (lacking `.ugly();`) lacks usability
 `mongosh` results consume a ridiculous amount of screen space and that makes it tedious to look through data. Only 7 documents consume an entire screen.
 
-![image](https://user-images.githubusercontent.com/28704571/172178512-0497771f-ae56-409c-8bbc-5be85e1972b8.png)
+![image](https://user-images.githubusercontent.com/28704571/172181881-e8759497-2a3c-474d-b3b1-bc4e07e67ad0.png)
 
 To install `mongo-hacker-modern`, run
 ```
