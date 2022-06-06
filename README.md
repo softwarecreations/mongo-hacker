@@ -41,7 +41,7 @@ So with my enhancements, `mongo-hacker-modern` has the same readability as Mongo
 
 ![image](https://user-images.githubusercontent.com/28704571/172178512-0497771f-ae56-409c-8bbc-5be85e1972b8.png)
 
-To install it, run
+To install `mongo-hacker-modern`, run
 ```
 npm install -g mongo-hacker-modern
 mongo
