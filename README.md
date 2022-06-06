@@ -8,6 +8,9 @@
             │                          /____/                                                   │
             └───────────────────────────────────────────────────────────────────────────────────┘
 
+# Oops
+2022-06-06 I unpublished the module and npmjs.org wants me to wait 24 hrs to republish.
+
 # mongo-hacker-modern
 NPM module that generates `~/.mongorc.js` for a next-level Mongo development experience
 
