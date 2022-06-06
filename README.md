@@ -8,7 +8,9 @@
             │                          /____/                                                   │
             └───────────────────────────────────────────────────────────────────────────────────┘
 
-# MongoDB Shell Enhancements - Modernized v0.1.2
+# mongo-hacker-modern - Generates `~/.mongorc.js` for next-level development experience
+
+## "MongoDB Shell Enhancements" - Modernized v0.1.2
 **This is a fork by [@softwarecreations](https://github.com/softwarecreations)** of [TylerBrock/mongo-hacker](https://github.com/TylerBrock/mongo-hacker)
 
 ## Why `mongo-hacker-modern` is better than `mongo-hacker`
