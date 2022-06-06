@@ -36,7 +36,7 @@ So with my enhancements, `mongo-hacker-modern` has the same readability as Mongo
 - Supports `.ugly();` query modifier, forcing results to be displayed on 1 line per document!
 - Older mongo servers and Node.JS environments are supported (I don't care about this, but maybe you do)
 
-## `mongosh` lacking `.ugly();` lacks usability
+## `mongosh` (lacking `.ugly();`) lacks usability
 `mongosh` results consume a ridiculous amount of space and that makes it tedious to look through data. Only 7 documents consume an entire screen.
 ![image](https://user-images.githubusercontent.com/28704571/172178512-0497771f-ae56-409c-8bbc-5be85e1972b8.png)
 
