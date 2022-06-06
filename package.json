@@ -1,5 +1,5 @@
 {
-  "name": "@softwarecreations/mongo-hacker-modern",
+  "name": "mongo-hacker-modern",
   "version": "0.1.2",
   "description": "MongoDB Shell Enhancements for Hackers - Modernized",
   "scripts": {
