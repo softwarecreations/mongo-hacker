@@ -11,14 +11,15 @@
 # MongoDB Shell Enhancements - Modernized v0.1.2
 **This is a fork by [@softwarecreations](https://github.com/softwarecreations)** of [TylerBrock/mongo-hacker](https://github.com/TylerBrock/mongo-hacker)
 
-After my PR from 2022-04-04 was merged
-- [Makes it obvious how to run mongo-hacker](https://github.com/TylerBrock/mongo-hacker/pull/218)
+**mongo-hacker**
+Looks like this (I find this hard to read)
+![image](https://user-images.githubusercontent.com/28704571/172172884-2c47c42d-4acc-482e-a7d4-f6a59aa8934c.png)
 
-As of 2022-06-06 there has been no response to my PR's submitted in 2022-04-13
-- [Added javascript_keys option and feature, to format keys JavaScript style rather than JSON](https://github.com/TylerBrock/mongo-hacker/pull/219)
-- [Added minimal_quotes feature](https://github.com/TylerBrock/mongo-hacker/pull/220)
+**My 219 PR adds the `javascript_keys` option that improves readability like this**
+![image](https://user-images.githubusercontent.com/28704571/172173259-c6b0e3ff-d5f2-40de-b247-8f995c9fb540.png)
 
-So I published my fork on npmjs.org
+**My 220 PR adds the `minimal_quotes` option, that improves readability like this**
+![image](https://user-images.githubusercontent.com/28704571/172173503-fd4e471f-084e-4e30-a495-ea1e2ceacb33.png)
 
 To install it, run
 ```
@@ -27,6 +28,17 @@ mongo
 ```
 
 To uninstall delete `.mongorc.js` in your user directory: `rm -f ~/.mongorc.js`
+
+## Why this module was published on npmjs.org
+
+After my PR from 2022-04-04 was merged
+- [Makes it obvious how to run mongo-hacker](https://github.com/TylerBrock/mongo-hacker/pull/218)
+
+As of 2022-06-06 there has been no response to my PR's submitted in 2022-04-13
+- [Added javascript_keys option and feature, to format keys JavaScript style rather than JSON](https://github.com/TylerBrock/mongo-hacker/pull/219)
+- [Added minimal_quotes feature](https://github.com/TylerBrock/mongo-hacker/pull/220)
+
+So I published my fork on npmjs.org
 
 Original README.md follows...
 
