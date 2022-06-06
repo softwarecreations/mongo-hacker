@@ -1,7 +1,7 @@
 {
-  "name": "mongo-hacker",
-  "version": "0.1.1",
-  "description": "MongoDB Shell Enhancements for Hackers",
+  "name": "@softwarecreations/mongo-hacker-modern",
+  "version": "0.1.2",
+  "description": "MongoDB Shell Enhancements for Hackers - Modernized",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "make install",
@@ -11,7 +11,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:TylerBrock/mongo-hacker.git"
+    "url": "git@github.com:softwarecreations/mongo-hacker.git"
   },
   "keywords": [
     "mongodb",
@@ -20,12 +20,12 @@
     "tweaks"
   ],
   "author": {
-    "name": "Tyler Brock",
-    "email": "tyler.brock@gmail.com"
+    "name": "softwarecreations",
+    "email": "tv2qoq05@anonaddy.me"
   },
-  "homepage": "http://tylerbrock.github.io/mongo-hacker/",
+  "homepage": "https://github.com/softwarecreations",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TylerBrock/mongo-hacker/issues"
+    "url": "https://github.com/softwarecreations/mongo-hacker/issues"
   }
 }

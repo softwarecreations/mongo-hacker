@@ -3,9 +3,9 @@
  * Mongo-Hacker
  * MongoDB Shell Enhancements for Hackers
  *
- * Tyler J. Brock - 2013 - 2019
- *
- * http://tylerbrock.github.com/mongo-hacker
+ * Fork by softwarecreations https://github.com/softwarecreations/mongo-hacker
+ * of
+ * Tyler J. Brock - 2013 - 2019 http://tylerbrock.github.com/mongo-hacker
  *
  */
 
@@ -15,11 +15,11 @@ mongo_hacker_config = {
   enhance_api:    true,             // additonal api extensions
   indent:         2,                // number of spaces for indent
   sort_keys:      false,            // sort the keys in documents when displayed
-  javascript_keys:false,            // output is formatted with JavaScript style keys
-  minimal_quotes: false,            // single quote strings that don't contain them
+  javascript_keys:true,             // output is formatted with JavaScript style keys - modernized
+  minimal_quotes: true,             // single quote strings that don't contain them   - modernized
   uuid_type:      'default',        // 'java', 'c#', 'python' or 'default'
   banner_message: 'Mongo-Hacker ',  // banner message
-  version:        '0.1.1',          // current mongo-hacker version
+  version:        '0.1.2',          // current mongo-hacker version
   show_banner:     true,            // show mongo-hacker version banner on startup
   use_color:       true,            // use color highlighting if possible
   force_color:     false,           // force color even if Mongo Hacker thinks it won't work

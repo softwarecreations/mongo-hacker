@@ -8,6 +8,30 @@
             │                          /____/                                                   │
             └───────────────────────────────────────────────────────────────────────────────────┘
 
+# MongoDB Shell Enhancements - Modernized v0.1.2
+**This is a fork by [@softwarecreations](https://github.com/softwarecreations)** of [TylerBrock/mongo-hacker](https://github.com/TylerBrock/mongo-hacker)
+
+After my PR from 2022-04-04 was merged
+- [Makes it obvious how to run mongo-hacker](https://github.com/TylerBrock/mongo-hacker/pull/218)
+
+As of 2022-06-06 there has been no response to my PR's submitted in 2022-04-13
+- [Added javascript_keys option and feature, to format keys JavaScript style rather than JSON](https://github.com/TylerBrock/mongo-hacker/pull/219)
+- [Added minimal_quotes feature](https://github.com/TylerBrock/mongo-hacker/pull/220)
+
+So I published my fork on npmjs.org
+
+To install it, run
+```
+npm install -g mongo-hacker-modern
+mongo
+```
+
+To uninstall delete `.mongorc.js` in your user directory: `rm -f ~/.mongorc.js`
+
+Original README.md follows...
+
+---
+
 # MongoDB Shell Enhancements
 
 ## Warnings
