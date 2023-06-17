@@ -51,11 +51,11 @@ To uninstall delete `.mongorc.js` in your user directory: `rm -f ~/.mongorc.js`
 After my PR from 2022-04-04 was merged
 - [Makes it obvious how to run mongo-hacker](https://github.com/TylerBrock/mongo-hacker/pull/218)
 
-As of 2022-06-06 there has been no response to my PR's submitted in 2022-04-13
+As of 2023-06-17 there has been no response to my PR's submitted in 2022-04-13
 - [Added javascript_keys option and feature, to format keys JavaScript style rather than JSON](https://github.com/TylerBrock/mongo-hacker/pull/219)
 - [Added minimal_quotes feature](https://github.com/TylerBrock/mongo-hacker/pull/220)
 
-So I published my fork on npmjs.org
+So I published my fork on npmjs.org on 2022-06
 
 Original README.md follows...
 
