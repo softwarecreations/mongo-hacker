@@ -2,6 +2,7 @@
 [![Version](https://img.shields.io/npm/v/mongo-hacker-modern.svg)](https://www.npmjs.com/package/mongo-hacker-modern)
 [![Dependencies](https://img.shields.io/librariesio/release/npm/mongo-hacker-modern)](https://libraries.io/npm/mongo-hacker-modern)
 [![License](https://img.shields.io/npm/l/mongo-hacker-modern)](https://npmjs.org/package/mongo-hacker-modern)
+[![Module Size](https://img.shields.io/bundlephobia/min/mongo-hacker-modern)](https://npmjs.org/package/mongo-hacker-modern)
 
     ┌─────────────────────────────────────────────────────────────────────────┐
     │      __  ___                           __  __           __              │
