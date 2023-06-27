@@ -1,4 +1,5 @@
 [![NPM downloads](http://img.shields.io/npm/dt/mongo-hacker-modern.svg)](https://npmjs.org/package/mongo-hacker-modern)
+[![Dependencies](https://img.shields.io/david/softwarecreations/mongo-hacker-modern.svg)](https://david-dm.org/softwarecreations/mongo-hacker-modern)
 
     ┌─────────────────────────────────────────────────────────────────────────┐
     │      __  ___                           __  __           __              │
