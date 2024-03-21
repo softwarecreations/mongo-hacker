@@ -81,7 +81,7 @@ echo -e 'Package: mongodb-org-shell\nPin: release a=buster\nPin-Priority: 1001' 
 ```sh
 echo -e 'Package: mongodb-org-shell\nPin: version 4.4.29\nPin-Priority: 1001' | sudo tee /etc/apt/preferences.d/mongodb-org-shell
 ```
-Unfortunately it won't pin if you just say `version 4.4`. If you pin to 4.4.29 and hypothetically 4.4.30 is released, you will have to update your preference.
+Unfortunately it won't pin if you just say `version 4.4`. If you pin to 4.4.29 and hypothetically 4.4.30 is released, you will have to update your preference to get 4.4.30.
 
 ### How to uninstall mongo-hacker-modern
 
