@@ -44,6 +44,8 @@ So with my enhancements, `mongo-hacker-modern` has the same readability as Mongo
 
 ![image](https://user-images.githubusercontent.com/28704571/172181881-e8759497-2a3c-474d-b3b1-bc4e07e67ad0.png)
 
+`mongosh` also makes it tedious to copy-paste a document from `mongosh` into `mongosh` and modify it, you must paste into a separate text editor and edit it there.
+
 # To install `mongo-hacker-modern`, run
 ```
 npm install -g mongo-hacker-modern
