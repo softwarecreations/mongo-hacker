@@ -59,7 +59,7 @@ So with my enhancements, `mongo-hacker-modern` has the same readability as Mongo
 4. Paste
 5. Edit
 6. Copy
-7. Switch back to correct `mongosh` terminal (remember you might have a few running)
+7. Switch back to correct `mongosh` terminal (you probably have multiple terminals running)
 8. Paste
 
 # To install `mongo-hacker-modern`, run
