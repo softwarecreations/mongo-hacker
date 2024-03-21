@@ -59,7 +59,7 @@ On Debian 12 bookworm I've installed MongoDB 6.0 (intended for Debian 11 bullsey
 ##### Add MongoDB 4.4 repo to your system (3 commands depending on your system)
 https://www.mongodb.com/docs/v4.4/administration/install-community/
 
-##### In the link above (on Linux) you will
+##### Now you have completed these 3 steps
 1. Add MongoDB 4.4's GPG key
 2. Add MongoDB 4.4's repository to your package manager
 3. Update your package manager
