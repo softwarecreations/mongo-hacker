@@ -55,7 +55,8 @@ Get the best of both.
 
 ## Installing legacy `mongo` shell aka `mongodb-org-shell` 4.4
 On Debian 12 bookworm I've installed MongoDB 6.0 (intended for Debian 11 bullseye) and mongodb-org-shell (intended for Debian 10 buster)
-First add the repo for MongoDB 4.4 to your system:
+
+##### Add MongoDB 4.4 repo to your system (3 commands from this link depending on your system)
 https://www.mongodb.com/docs/v4.4/administration/install-community/
 
 ##### In the link above (on Linux) you will
