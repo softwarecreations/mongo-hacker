@@ -44,7 +44,23 @@ So with my enhancements, `mongo-hacker-modern` has the same readability as Mongo
 
 ![image](https://user-images.githubusercontent.com/28704571/172181881-e8759497-2a3c-474d-b3b1-bc4e07e67ad0.png)
 
-`mongosh` also makes it tedious to copy-paste a document from `mongosh` into `mongosh` and modify it, you must paste into a separate text editor and edit it there.
+## `mongosh` vs `mongo-hacker-modern` workflow to: copy, paste, edit, enter
+`mongosh` also makes it tedious to copy-paste a document from `mongosh` into `mongosh` and modify it, because `mongosh` forces multi-line output and then only lets you edit the last line of text that you've pasted in... So to use `mongosh` you must paste into a separate text editor and edit it there before pasting it back into `mongosh`.
+
+### `mongo-hacker-modern` workflow
+1. Copy
+2. Paste
+3. Edit
+
+### `mongosh` workflow
+1. Copy
+2. Switch to code editor
+3. Make a new file
+4. Paste
+5. Edit
+6. Copy
+7. Switch back to correct `mongosh` terminal (remember you might have a few running)
+8. Paste
 
 # To install `mongo-hacker-modern`, run
 ```
