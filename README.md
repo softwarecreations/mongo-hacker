@@ -55,7 +55,7 @@ Get the best of both.
 
 MongoDB doesn't offer every version of MongoDB for every distro version, but it seems as long as your distro is the same or newer than the one they have targeted, it works 100%.
 
-For example the oldest version of MongoDB community-version for Debian 12 bookworm is 7.0... but on Debian 12 bookworm I've installed MongoDB 6.0 (intended for Debian 11 bullseye) and mongodb-org-shell (intended for Debian 10 buster)
+For example the oldest version of MongoDB community-version for Debian 12 bookworm is 7.0... but on Debian 12 bookworm I've installed mongodb-org 6.0 (intended for Debian 11 bullseye) and mongodb-org-shell 4.4 (intended for Debian 10 buster)
 
 ## Installing legacy `mongo` shell aka `mongodb-org-shell` 4.4
 
