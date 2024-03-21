@@ -56,26 +56,26 @@ Get the best of both.
 ## Installing legacy `mongo` shell aka `mongodb-org-shell` 4.4
 On Debian 12 bookworm I've installed MongoDB 6.0 (intended for Debian 11 bullseye) and mongodb-org-shell (intended for Debian 10 buster)
 
-##### Add MongoDB 4.4 repo to your system (3 commands depending on your system)
+#### Add MongoDB 4.4 repo to your system (3 commands depending on your system)
 https://www.mongodb.com/docs/v4.4/administration/install-community/
 
-##### Now you have completed these 3 steps
+#### Now you have completed these 3 steps
 1. Add MongoDB 4.4's GPG key
 2. Add MongoDB 4.4's repository to your package manager
 3. Update your package manager
 
-##### Install mongodb-org-shell 4.4 in Debian/Ubuntu/PopOS etc
+#### Install mongodb-org-shell 4.4 in Debian/Ubuntu/PopOS etc
 ```sh
 apt install mongodb-org-shell=4.4.29
 ```
 
-##### Pin mongodb-org-shell 4.4 by the fact that it comes from buster
+#### Pin mongodb-org-shell 4.4 by the fact that it comes from buster
 (assuming you haven't added MongoDB repos newer than 4.4 _for buster_)
 ```sh
 echo -e 'Package: mongodb-org-shell\nPin: release a=buster\nPin-Priority: 1001' | sudo tee /etc/apt/preferences.d/mongodb-org-shell
 ```
 
-##### Alternatively, pin mongodb-org-shell 4.4 by EXACT version
+#### Alternatively, pin mongodb-org-shell 4.4 by EXACT version
 ```sh
 echo -e 'Package: mongodb-org-shell\nPin: version 4.4.29\nPin-Priority: 1001' | sudo tee /etc/apt/preferences.d/mongodb-org-shell
 ```
