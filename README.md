@@ -50,8 +50,8 @@ npm install -g mongo-hacker-modern
 mongo
 ```
 
-## You can install/use `mongo` and `mongosh` on the same system
-I do.
+## Run `mongo` and `mongosh` on the same system
+Get the best of both.
 
 ## Installing legacy `mongo` shell aka `mongodb-org-shell` 4.4
 On Debian 12 bookworm I've installed MongoDB 6.0 (intended for Debian 11 bullseye) and mongodb-org-shell (intended for Debian 10 buster)
