@@ -50,7 +50,41 @@ npm install -g mongo-hacker-modern
 mongo
 ```
 
-To uninstall delete `.mongorc.js` in your user directory: `rm -f ~/.mongorc.js`
+## You can install/use `mongo` and `mongosh` on the same system
+I do.
+
+## Installing legacy `mongo` shell aka `mongodb-org-shell` 4.4
+On Debian 12 bookworm I've installed MongoDB 6.0 (intended for Debian 11 bullseye) and mongodb-org-shell (intended for Debian 10 buster)
+First add the repo for MongoDB 4.4 to your system:
+https://www.mongodb.com/docs/v4.4/administration/install-community/
+
+##### In the link above (on Linux) you will
+1. Add MongoDB 4.4's GPG key
+2. Add MongoDB 4.4's repository to your package manager
+3. Update your package manager
+
+##### Install mongodb-org-shell 4.4 in Debian/Ubuntu/PopOS etc
+```sh
+apt install mongodb-org-shell=4.4.29
+```
+
+##### Pin mongodb-org-shell 4.4 by the fact that it comes from buster
+(assuming you haven't added MongoDB repos newer than 4.4 _for buster_)
+```sh
+echo -e 'Package: mongodb-org-shell\nPin: release a=buster\nPin-Priority: 1001' | sudo tee /etc/apt/preferences.d/mongodb-org-shell
+```
+
+##### Alternatively, pin mongodb-org-shell 4.4 by EXACT version
+```sh
+echo -e 'Package: mongodb-org-shell\nPin: version 4.4.29\nPin-Priority: 1001' | sudo tee /etc/apt/preferences.d/mongodb-org-shell
+```
+(It won't pin if you just say `version 4.4`)
+
+### How to uninstall mongo-hacker-modern
+
+```sh
+rm -f ~/.mongorc.js
+```
 
 ## Why this module was published on npmjs.org
 
@@ -91,7 +125,6 @@ So I published my fork on npmjs.org on 2022-06
 npm install -g mongo-hacker
 mongo
 ```
-
 
 #### Install from source
 ```
